@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 #coding=utf-8
 import copy
-from toughlib.btforms import  attrget
-from toughlib.btforms import storage
-from toughlib.btforms import AttributeList
+from radiuslib.btforms import  attrget
+from radiuslib.btforms import storage
+from radiuslib.btforms import AttributeList
 
 class Form(object):
 

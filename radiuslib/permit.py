@@ -5,7 +5,7 @@ import os
 import importlib
 from cyclone.web import RequestHandler
 from cyclone.websocket import WebSocketHandler
-from toughlib import dispatch,logger
+from radiuslib import dispatch,logger
 
 class Permit():
     """ 权限菜单管理

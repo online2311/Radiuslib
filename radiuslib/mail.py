@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 #coding:utf-8
 
-from toughlib import  utils
-from toughlib import dispatch,logger
+from radiuslib import  utils
+from radiuslib import dispatch,logger
 from twisted.mail.smtp import sendmail
 # from email.mime.text import MIMEText
 # from email import Header

@@ -3,9 +3,9 @@
 import time
 import json
 from hashlib import md5
-from toughlib import utils, httpclient
-from toughlib import logger
-from toughlib.storage import Storage
+from radiuslib import utils, httpclient
+from radiuslib import logger
+from radiuslib.storage import Storage
 
 
 def make_sign(api_secret, params=[]):

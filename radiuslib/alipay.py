@@ -6,7 +6,7 @@ import types
 from urllib import urlencode
 from hashlib import md5
 from twisted.internet import defer
-from toughlib import httpclient as requests
+from radiuslib import httpclient as requests
 
 class AliPay:
 
@@ -167,7 +167,7 @@ class AliPay:
 
 
 if __name__ == '__main__':
-    from toughlib.storage import Storage
+    from radiuslib.storage import Storage
     settings = Storage(
         ALIPAY_KEY = '234234',
         ALIPAY_INPUT_CHARSET = 'utf-8',

@@ -2,9 +2,9 @@
 
 
 from setuptools import setup, find_packages
-import toughlib
+import radiuslib
 
-version = toughlib.__version__
+version = radiuslib.__version__
 
 install_requires = [
     'six>=1.8.0',
@@ -19,13 +19,13 @@ install_requires_empty = []
 package_data={}
 
 
-setup(name='toughlib',
+setup(name='radiuslib',
       version=version,
-      author='jamiesun',
-      author_email='jamiesun.net@gmail.com',
-      url='https://github.com/talkincode/toughlib',
+      author='ZhangJing',
+      author_email='ZhangJing@outlook.com',
+      url='https://github.com/online2311/Radiuslib',
       license='MIT',
-      description='toughstruct python tools',
+      description='radiusstruct python tools',
       long_description=open('README.md').read(),
       classifiers=[
        'Development Status :: 6 - Mature',

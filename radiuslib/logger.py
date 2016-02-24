@@ -5,8 +5,8 @@ import os
 import socket
 import logging
 import logging.handlers
-from toughlib import dispatch
-from toughlib.utils import safeunicode
+from radiuslib import dispatch
+from radiuslib.utils import safeunicode
 from twisted.logger import Logger
 import functools
 
